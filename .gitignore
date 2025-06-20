@@ -1,0 +1,13 @@
+.env.local
+node_modules
+.next/
+# OS-specific junk files
+.DS_Store
+Thumbs.db
+# Logs
+logs/
+*.log
+
+# IDE/editor config files (optional but recommended)
+.vscode/
+.idea/
