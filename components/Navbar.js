@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between bg-black text-white px-4 h-14">
       <Link href="/" className="font-bold text-lg">
-        GetMeAChai
+        Fund Here
       </Link>
       <ul className="flex items-center gap-4">
         

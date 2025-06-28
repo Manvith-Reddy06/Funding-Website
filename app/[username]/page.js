@@ -1,7 +1,8 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { useSession } from "next-auth/react";
-import pay from "../public/pay.png";
+// import pay from "../public/pay.mp4";
+// import gif from "../public/VM3x.gif";
 
 const Username = ({ params }) => {
   const { data: session } = useSession();
@@ -10,6 +11,7 @@ const Username = ({ params }) => {
   const [message, setMessage] = useState("");
   const [amount, setAmount] = useState("");
   const [donations, setDonations] = useState([]);
+  const [gif , setGif] = useState(false);
 
   // Handle donation submit
   async function handleSubmit(e) {
@@ -24,8 +26,10 @@ const Username = ({ params }) => {
     setMessage("");
     setAmount("");
     setAnimation(true);
+    setGif(true);
     setTimeout(() => {
       setAnimation(false);
+      setGif(false);
     }, 2000);
     // Refresh donations after submitting
     fetchDonations();
@@ -121,12 +125,17 @@ const Username = ({ params }) => {
             >
               Pay
             </button>
+            {gif && <div className="fixed inset-0 z-50 flex items-center justify-center  bg-white"
+    style={{ backdropFilter: "blur(2px)" }}><img src="/VM3x.gif" alt="payment" /></div>}
             <div className="flex gap-2 justify-center mt-2">
               {[10, 20, 30].map((amt) => (
                 <button
                   key={amt}
                   type="button"
-                  onClick={() => setAmount(amt.toString())}
+                  //how to get both setamount and gif to work together?
+                  onClick={() => {
+                    setAmount(amt.toString() || "");
+                  }}
                   className="bg-transparent border border-white font-medium rounded-lg text-sm px-4 py-2 cursor-pointer"
                 >
                   Pay ₹{amt}

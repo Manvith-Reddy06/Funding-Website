@@ -10,10 +10,10 @@ export default function Home() {
         <div className="justify-center items-center flex">
           <div className="font-bold text-5xl text-white flex justify-center flex-col h-[44vh] w-[70vw] items-center pt-5">
             <div className="flex gap-2 m-4 justify-center items-center ">
-              Get Me a Chai
+              Fund Here
               <span className=" justify-center">
                 <Image
-                  src={chai}
+                  src={coin}
                   placeholder="blur"
                   alt=""
                   width={50}
@@ -23,7 +23,7 @@ export default function Home() {
             </div>
             <p className="text-white text-lg font-thin">
               This is a website where you can donate your funds to your favorite
-              streamers or to the needy- Make a useful contibution to the
+              streamers or to the needy- Make a useful contribution to the
               society
             </p>
           </div>
@@ -45,28 +45,28 @@ export default function Home() {
       </div>
       <div className="h-1 bg-white opacity-10"></div>
       <div className="text-white">
-        <div className="font-bold text-white justify-center items-center flex text-2xl m-8">Your Fans can Buy You a Chai</div>
+        <div className="font-bold text-white justify-center items-center flex text-2xl m-8">Help Here!!</div>
         <div className="justify-around flex ">
           <div className="flex   items-center flex-col">
             <Image className="bg-slate-400 rounded-full" src={coin} placeholder="blur" alt="" width={50} height={50} />
             <div className="font-bold text-lg ">Donate Here</div>
-            <div className="mb-8">Your Fans are here to help you</div>
+            <div className="mb-8">Your Friends are here to help you..</div>
           </div>
           <div className="flex   items-center flex-col">
             <Image className="bg-slate-400 rounded-full" src={coin} placeholder="blur" alt="" width={50} height={50} />
             <div className="font-bold text-lg ">Donate Here</div>
-            <div className="mb-8">Your Fans are here to help you</div>
+            <div className="mb-8">Your Friends are here to help you..</div>
           </div>
           <div className="flex   items-center flex-col">
             <Image className="bg-slate-400 rounded-full" src={coin} placeholder="blur" alt="" width={50} height={50} />
             <div className="font-bold text-lg ">Donate Here</div>
-            <div className="mb-8">Your Fans are here to help you</div>
+            <div className="mb-8">Your Friends are here to help you..</div>
             </div>  
         </div>
         <div className="h-1 bg-white opacity-10"></div>
         <div className="font-bold text-2xl text-center">More About Us</div>
         <div className="flex justify-center items-center flex-col">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QtaorVNAwbI?si=UfFeFPI1w1LWZ9Ax" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BCcMhStc0PY?si=oXbVHYbniOAks3rt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         </div>
         
