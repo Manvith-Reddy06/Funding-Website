@@ -66,7 +66,7 @@ export default function Home() {
         <div className="h-1 bg-white opacity-10"></div>
         <div className="font-bold text-2xl text-center">More About Us</div>
         <div className="flex justify-center items-center flex-col">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/BCcMhStc0PY?si=oXbVHYbniOAks3rt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BCcMhStc0PY?si=oXbVHYbniOAks3rt" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         </div>
         

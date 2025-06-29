@@ -130,7 +130,7 @@ const Username = ({ params }) => {
             <div className="flex gap-2 justify-center mt-2">
               {[10, 20, 30].map((amt) => (
                 <button
-                  key={amt}
+                  key={amt}npm run dev
                   type="button"
                   //how to get both setamount and gif to work together?
                   onClick={() => {
