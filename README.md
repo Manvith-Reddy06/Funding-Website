@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🪙 Fund Here – Donation Platform for Streamers & Creators
 
-## Getting Started
+Fund Here is a full-stack donation platform where users can support streamers, open-source contributors, or anyone in need by donating funds securely. It features OAuth-based login, user-specific donation pages, transaction history, and a leaderboard for top contributors.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+_Coming Soon_  
+<!-- Add your deployed link here if available -->
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## ✨ Features
 
-## Learn More
+- 🔐 OAuth Authentication (Google, GitHub, Twitter, LinkedIn, Apple, etc.)
+- 🧾 Donation History stored in MongoDB
+- 📄 Custom user donation pages (e.g., `/manvith-reddy06`)
+- 💬 Option to leave a message with donations
+- 💸 Quick donation buttons (₹10, ₹20, ₹30)
+- 🏆 Leaderboard showing top contributors
+- 🎨 Modern, responsive UI with dark mode
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🖼️ Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 🔐 Login Page
+![Login Page](./public/assets/login-page.png)
 
-## Deploy on Vercel
+### 🧑‍💻 User Donation Page
+![User Donation Page](./public/assets/username.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🏠 Landing Page
+![Landing Page](./public/assets/landing-page.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 📋 Transaction History
+![Transaction History](./public/assets/transaction-history.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js 14, TailwindCSS
+- **Backend:** Express.js
+- **Database:** MongoDB
+- **ORM:** Mongoose
+- **Authentication:** OAuth using NextAuth.js (or equivalent)
+- **State Management:** React hooks
+  
+---
+
+## 📁 Folder Structure
+
+.
+├── pages/
+├── components/
+├── models/ # Mongoose schemas
+├── api/ # Express API routes
+├── public/
+│ └── assets/ # Static images used in README
+└── README.md
+
+
+---
+
+
+## 🧠 What I Learned
+Implementing full-stack web apps with the MERN stack
+
+Dynamic routing and page generation in Next.js
+
+Using OAuth providers for secure and flexible authentication
+
+Designing MongoDB schemas for transaction-based data
+
+Building reusable UI components and responsive layouts
+
+---
+
+
+## 📌 TODO (Future Enhancements)
+ Integrate Razorpay or Stripe for payment handling
+
+ Enable email receipts for donors
+
+ Add social sharing for donation pages
+
+ Deploy to Vercel or Render
+ 
+---
+
+
+## 📬 Contact
+Made with ❤️ by Manvith Reddy
+📧 manvithreddy2021@gmail.com
+🌐 LinkedIn linkedin.com/in/bijjam-manvith-reddy-530144293
+
+---
+
+
+## ⭐️ Show Your Support
+
+Let me know if you'd like me to auto-generate badges (like GitHub stars, forks, etc.), add deployment instructions, or include license info.
+
+
